@@ -1,35 +1,15 @@
-<h3>The Idea</h3>
-<p>Once a year Draw Jordan Day comes about, and I fail utterly.  If you don't know, Draw Jordan Day is a day where we draw our favourite friend in the world, Jordan. Previous renditions live in infamy, but none of those renditions are mine.  Why do I fail, you ask?  Because I can't draw worth a damn, and the people I surround myself with caaaaaaaaan.  It's infuriating and I look really bad by comparison</p>
-
-<p>So this year I came up with a plan.  What skills do I have that could possibly make something cool, and semi-(not-really)-artsy?  Oh, that's right, I can program!</p>
-
-<h1>WOO HOO!</h1>
-
-<p>OK, what then, smartass, what should you actually do? Well, I sit in terminal all day, and I figure that it'd be pretty cool to have an image to ascii generator in case I want to taunt people with my visage, so why not one of those?!</p>
-
-<h5>bad idea...</h5>
-
-<p>As it turns out there are a lot of things about images that I don't know shit about.  There are also a lot of things about fonts I don't know shit about, and... now I do... and I think I don't really want to know these things. So in the end this whole project took longer than I wanted and went through a few iterations.</p>
-
-<h3>The Evolution of a Jordan</h3>
-
-<p>First things first, I had to come up with a scheme for sampling and rendering Jordan in terms of ascii, my "bright" idea is a sampling of an Jordan image in the ratio of the given font I render him in, and then calculating the relative contrast of that sample versus the entire image.  The issue with this turns out a few fold.
-
+<html>
+<head>
+</head>
+<body>
+<center><h1><p>hello</p></h1></center>
+<h2><p>2015</p></h2>
 <ul>
-<li>Jordan takes lots of dark fucking images with bad contrast, so things are blury.</li>
-<li>If you don't have enough samples things kind of blur together in to one amorphous blob.</li>
-<li>If you take TOO many samples the result gets too big.</li>
-<li>You lose a lot of hard lines with too big samples (see amorphous blob)</li>
+  <li><a href="jc_salaries.html">JC Salary Study</a></li>
 </ul>
-
-<p>To fix these issues I did a few things. First I increased the amount of samples.  This made Jordan appear in ascii, but it made there be too much ascii to really see all in one go.  So, then I rendered the ascii as an image so that you could see it all at once.  The problem with this is that there is so much white space in the image (white background + black text) that Jordan seems really distant/faint.  So then I had the bright idea of of sampling the actual colors of the Jordan image, and then rendering the Jordan ascii-image with the ascii colored as the color of that sample from the image (with the hope of increasing the contrast).  This actually created this really cool affect where Jordan was just slightly more visible, giving him this really ethereal feel.  Well, I said, why don't I just color the BACKGROUND. and leave the text itself white?  This acually... hilariously... re-creates the original image (if a little pixelated), but I got the contrast I wanted.  From there it was a simple task of using a black background and then rendering the text as white to get the increased contrast.  To strengthen the effect I rendered the text as color on the black background to get the "final" result.  I am please with what I got, though it's definitely not perfect.</p>
-
-<h1> OH YEAH </h1>
-
-<p>I put the thing on github... HERE: <a href="https://github.com/reyale/jordanizer">github repo</a></p>
-<p> and here are some example outputs... if you care about that sort of thing.</p>
-<img src="images/jordan1_new.jpg"><br>
-<a href="images/jordan2_new.jpg">Jordan 2</a><br>
-<a href="images/jordan3_new.jpg">Jordan 3<br>
-<a href="images/jordan4_new.jpg">Jordan 4</a><br>
-<a href="images/jordan5_new.jpg">Jordan 5</a><br>
+<h2><p>2014</p></h2>
+<ul>
+  <li><a href="jordanizer.html">Jordanizer</a></li>
+</ul>
+</body>
+</html>

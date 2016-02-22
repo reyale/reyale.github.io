@@ -41,6 +41,13 @@
    "tags": "code-for-america jersey-city slack",
    "quality": "N/A",
    "comment": "Slack channel for Jersey City's Code for America brigade"
+   },
+   {
+   "name": "Code for JC Github",
+   "link": "https://github.com/CodeForJerseyCity",
+   "tags": "code-for-america github jersey-city github.io codeforjc-website",
+   "quality": "mixed",
+   "comment": "Github containing some data and codeforjc github.io website"
    }
  ]
 }

@@ -27,6 +27,20 @@
    "tags": "jersey-city open-data portal new CKAN",
    "quality": "mixed",
    "comment": "New Jersey City data portal, currently being maintained by the city"
+   },
+   {
+   "name": "Code for JC",
+   "link": "http://codeforjc.org/",
+   "tags": "open-data code-for-america jersey-city",
+   "quality": "N/A", 
+   "comment": "Website for Jersey City's Code for America brigade"
+   },
+   {
+   "name": "Code for JC Slack",
+   "link": "https://codeforjc.slack.com",
+   "tags": "code-for-america jersey-city slack",
+   "quality": "N/A",
+   "comment": "Slack channel for Jersey City's Code for America brigade"
    }
  ]
 }

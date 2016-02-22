@@ -3,9 +3,30 @@
    {
    "name": "openjc ckan",
    "link": "https://data.openjerseycity.org/",
-   "tags": "openjc ckan",
+   "tags": "openjc CKAN",
    "quality": "mixed",
    "comment": "The old openjc ckan, still has some data missing from other sources"
+   },
+   {
+   "name": "jersey city opra request",
+   "link": "https://jerseycitynj.seamlessdocs.com/w/records_request",
+   "tags": "jersey-city OPRA-request OPRA",
+   "quality": "N/A",
+   "comment": "Jersey City OPRA requests"
+   },
+   {
+   "name": "jersey city data portal (old)",
+   "link": "http://www.cityofjerseycity.com/data/",
+   "tags": "jersey-city open-data portal old",
+   "quality": "mixed/deprecated",
+   "comment": "Old Jersey City data portal, still has relevant links"
+   },
+   {
+   "name": "jersey city data portal",
+   "link": "http://data.jerseycitynj.gov",
+   "tags": "jersey-city open-data portal new CKAN",
+   "quality": "mixed",
+   "comment": "New Jersey City data portal, currently being maintained by the city"
    }
  ]
 }

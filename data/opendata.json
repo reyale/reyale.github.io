@@ -1,0 +1,11 @@
+{
+ "data": [
+   {
+   "name": "openjc ckan",
+   "link": "https://data.openjerseycity.org/",
+   "tags": "openjc ckan",
+   "quality: "mixed",
+   "comment": "The old openjc ckan, still has some data missing from other sources"
+   }
+ ]
+}

@@ -1,0 +1,38 @@
+<html>
+
+  <header>
+  <link rel="stylesheet" type="text/css" href="static/dt.css"/>
+  <script type="text/javascript" src="static/dt.js"></script>
+  </header>  
+
+  <body>
+
+    <table id="example" class="display" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>link</th>
+                <th>tags</th>
+                <th>quality</th>
+                <th>comment</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script>
+    $(document).ready(function() {
+    $('#example').DataTable( {
+        "ajax": "data/opendata.json",
+        "columns": [
+            { "data": "name" },
+            { "data": "link" },
+            { "data": "tags" },
+            { "data": "quality" },
+            { "data": "comment" },
+        ]
+    } );
+    } );
+    </script>
+
+  </body>
+</html>
